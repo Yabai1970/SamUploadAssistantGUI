@@ -363,7 +363,7 @@ def create_torrent(meta, path, output_filename, tracker_url=None):
         exclude_globs=exclude or [],
         include_globs=include or [],
         creation_date=datetime.now(),
-        comment="Samaritano Upload-Assistant (https://samaritano.cc)",
+        comment="Samaritano Upload-Assistant (https://github.com/Yabai1970/SamUploadAssistantGUI)",
         created_by="Upload Assistant",
         piece_size=piece_size
     )
@@ -434,8 +434,8 @@ async def create_base_from_existing_torrent(torrentpath, base_dir, uuid):
     if os.path.exists(torrentpath):
         base_torrent = Torrent.read(torrentpath)
         base_torrent.trackers = ['https://fake.tracker']
-        base_torrent.comment = "Samaritano Upload-Assistant (https://samaritano.cc)"
-        base_torrent.created_by = "Samaritano Upload-Assistant (https://samaritano.cc)"
+        base_torrent.comment = "Samaritano Upload-Assistant (https://github.com/Yabai1970/SamUploadAssistantGUI)"
+        base_torrent.created_by = "Samaritano Upload-Assistant (https://github.com/Yabai1970/SamUploadAssistantGUI)"
         info_dict = base_torrent.metainfo['info']
         valid_keys = ['name', 'piece length', 'pieces', 'private', 'source']
 

@@ -771,7 +771,7 @@ def _normalize_qbittorrent_config(cfg: Dict[str, Any]) -> bool:
 
     signature_defaults = {
         "ua_signature_text": "Samaritano Upload-Assistant.",
-        "ua_signature_link": "https://samaritano.cc",
+        "ua_signature_link": "https://github.com/Yabai1970/SamUploadAssistantGUI",
         "ua_signature_subtext": "Ramificação do L4G's e Audionut, adicionado traduções e GUI.",
     }
     for key, value in signature_defaults.items():
@@ -2962,7 +2962,7 @@ class Wizard(ctk.CTkToplevel if USE_CTK else ctk.Toplevel):  # type: ignore[misc
         TORRENT_CLIENTS["qbittorrent"] = qb
 
         DEFAULT["ua_signature_text"] = "Samaritano Upload-Assistant."
-        DEFAULT["ua_signature_link"] = "https://samaritano.cc"
+        DEFAULT["ua_signature_link"] = "https://github.com/Yabai1970/SamUploadAssistantGUI"
         DEFAULT["ua_signature_subtext"] = "Ramificação do L4G's e Audionut, adicionado traduções e GUI."
         DEFAULT["uploader_avatar"] = self.var_avatar.get().strip()
 
