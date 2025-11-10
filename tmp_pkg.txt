@@ -1,0 +1,19 @@
+Options in 'UploadAssistant.pkg' (PKG/CArchive):
+ pyi-contents-directory _internal
+Contents of 'UploadAssistant.pkg' (PKG/CArchive):
+ position, length, uncompressed_length, is_compressed, typecode, name
+ 0, 235, 289, 1, 'm', 'struct'
+ 235, 2831, 4914, 1, 'm', 'pyimod01_archive'
+ 3066, 13630, 31786, 1, 'm', 'pyimod02_importers'
+ 16696, 2815, 6434, 1, 'm', 'pyimod03_ctypes'
+ 19511, 934, 1663, 1, 'm', 'pyimod04_pywin32'
+ 20445, 1027, 1881, 1, 's', 'pyiboot01_bootstrap'
+ 21472, 284, 362, 1, 's', 'rthook-bencode_alias'
+ 21756, 684, 1068, 1, 's', 'rthook-syspath_ua'
+ 22440, 1470, 2779, 1, 's', 'pyi_rth_inspect'
+ 23910, 1074, 1864, 1, 's', 'pyi_rth_multiprocessing'
+ 24984, 951, 1543, 1, 's', 'pyi_rth_pkgutil'
+ 25935, 654, 1004, 1, 's', 'pyi_rth_setuptools'
+ 26589, 642, 1117, 1, 's', 'pyi_rth__tkinter'
+ 27231, 69543, 171929, 1, 's', 'ua_gui'
+ 96774, 16345140, 16345140, 0, 'z', 'PYZ.pyz'
